@@ -21,7 +21,7 @@ def create_brain():
     """
     import os
 
-    h5_file_path = os.path.join(os.environ.get('NRP_MODELS_DIRECTORY'), 'brain_model/CDP1_brain_model_700_neurons.h5')
+    h5_file_path = os.path.join(os.getcwd(), 'CDP1_brain_model_700_neurons.h5')
     h5file = h5py.File(h5_file_path, "r")
 
     #sim.setup(timestep=0.1, min_delay=0.1, max_delay=20.0, threads=1, debug=True)
