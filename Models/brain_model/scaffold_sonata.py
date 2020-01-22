@@ -6,7 +6,7 @@ This file contains the setup of the neuronal network running the Husky experimen
 
 __author__ = 'Stefano Nardo'
 
-from hnp_nrp_cle.brainsim import simulator as sim
+from hbp_nrp_cle.brainsim import simulator as sim
 from pyNN.serialization import import_from_sonata
 
 
