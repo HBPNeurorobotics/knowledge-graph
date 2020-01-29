@@ -15,7 +15,7 @@ def create_brain():
     Initializes PyNN with the neural network that has to be simulated
     """
 
-    return import_from_sonata('scaffold_sonata/circuit_config.json')
+    return import_from_sonata('scaffold_sonata/circuit_config.json', sim)
 
 
 circuit = create_brain()
